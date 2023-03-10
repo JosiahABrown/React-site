@@ -39,6 +39,10 @@ body {
 main {
     padding: 55px 25px;
     color: white;
+    background-image: url(./images/reactjs-logo-large.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
 }
 
 .main-title {
@@ -54,4 +58,9 @@ main {
 .main-facts > li {
     line-height: 19px;
     padding-block: 10px;
+}
+
+.main-facts > li::marker {
+    font-size: 1.4rem;
+    color: #61DAFB;
 }
