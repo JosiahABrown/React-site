@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Inter, sans-serif;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+    background-color: #21222A;
+    height: 90px;
+    padding: 30px 25px
+}
+
+.nav-logo {
+    height: 30px;
+    margin-right: 7px;
+}
+
+.nav-title {
+    margin: 0;
+}
+
+.nav-title-main {
+    margin-right: auto;
+    color: #61DAFB;
+    font-size: 22px;
+}
+
+.nav-title-sub {
+    color: #DEEBF8;
+    font-weight: 600;
+}
